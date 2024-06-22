@@ -930,7 +930,10 @@ export default function Home() {
         <div className="container">
           <div className="row">
             <div className="col-md-6">
-              <div className="img-box">
+              <div
+                style={{ backgroundColor: "rgb(236, 236, 236)" }}
+                className="img-box"
+              >
                 <img src="images/about-img.png" alt="" />
               </div>
             </div>
